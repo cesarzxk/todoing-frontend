@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <img alt="Logo" src="" width="300px">
 
-## Getting Started
+<h3 align="center">
+  Uma api NodeJS.
+</h3>
 
-First, run the development server:
+<p align="center">Seu agendamento express!</p>
+
+<p align="center">
+
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/cesarzxk/todoing-frontend?color=yellow">
+
+  <a href="https://www.linkedin.com/in/cs-vargas/" target="_blank" rel="noopener noreferrer">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-César%20Vargas-yellow">
+  </a>
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/cesarzxk/todoing-frontend?color=yellow">
+
+  <a href="https://github.com/cesarzxk/todoing-frontend/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/cesarzxk/todoing-frontend?color=yellow">
+  </a>
+
+  <a href="https://github.com/cesarzxk/todoing-frontend/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/cesarzxk/todoing-frontend?color=yellow">
+  </a>
+
+  <img alt="GitHub" src="https://img.shields.io/github/license/cesarzxk/todoing-frontend?color=yellow">
+</p>
+
+<p align="center">
+  <a href="#-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-capturas-de-tela">Capturas de Tela</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-iniciar-">Iniciar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-estrutura-de-rotas">Estrutura de rotas</a>&nbsp;|&nbsp;
+  <a href="#-como-contribuir-">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
+
+## 💇🏼 Sobre o projeto
+
+Essa aplicação foi pensada como um agendador simples, como parte do desafio proposto pela Diel, e também um desafio pessoal, no qual foi implementado uma interface agradavelmente simples, com teste comportamental do Bun.
+
+![img](https://res.cloudinary.com/da91uwz7j/image/upload/v1695744341/diel/Gravando_2023-09-26_120951_kdcuvi.gif)
+
+## 🚀 Tecnologias
+
+As seguintes tecnologias foram utilizadas para desenvolver esse projeto:
+
+- [React](https://reactjs.org/)
+- [Node.js](https://nodejs.org/en/)
+- [Bun](https://bun.sh/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Axios](https://github.com/axios/axios)
+- [Chakra-ui](https://chakra-ui.com/)
+
+## 💻 Como iniciar ?
+
+### Requerimentos
+
+- [Node.js](https://nodejs.org/en/)
+- [Bun](https://bun.sh/)
+
+**Clone o projeto e acesse a pasta**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+$ git clone https://github.com/cesarzxk/todoing-frontend.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Siga aos passos a baixo**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Para iniciar o projeto siga o passo a passo.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```js
+//vaiavel de ambiente necessária
+NEXT_PUBLIC_BASEURL = "http://localhost:3333";
+```
 
-## Learn More
+**No terminal**
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Para instalar da dependências:
+$ ban i
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Para iniciar o servidor:
+$ ban dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🤔 Como contribuir ?
 
-## Deploy on Vercel
+**Fazer um fork desse repositório**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+# Fork via GitHub linha de comando
+# Se não possui GitHub CLI, use o website para isso.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+$ gh repo fork cesarzxk/todoing-frontend
+
+```
+
+**Siga os passos a baixo**
+
+```bash
+# Clone para seu fork
+$ git clone your-fork-url && cd todoing-frontend
+
+# Crie uma branch com sua feature
+$ git checkout -b my-feature
+
+# Faça um commit com suas alterações
+$ git commit -m "Minha nova feature"
+
+# Envie o codigo para sua branch remota
+$ git push origin my-feature
+```
+
+Após seu o merged do seu pull request, você poderá excluir sua branch.
+
+## 📝 Licença
+
+Esse projeto possui licença Apache 2.0 - veja sobre [LICENSE](LICENSE) arquivo para detalhes.
+
+---
+
+Feito por 💜 &nbsp;César Vargas 👋 &nbsp;[Veja meu linkedin](https://www.linkedin.com/in/cs-vargas/)
